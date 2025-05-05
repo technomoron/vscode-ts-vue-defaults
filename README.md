@@ -56,6 +56,9 @@ npm run cleanbuild
 
 ## Install
 
+After installing, remember to either restart VSCode completely or reload
+both TS and ESLint server from the command palette (ctrl-shift-P).
+
 Unix/Linux/FreeBSD/MacOS:
 
 ```bash
@@ -75,7 +78,9 @@ update eslint to v9.x and add some script targets to package.json
 
 ## Recommended/Required VS Code Extensions
 
-Below is a list of recommended extensions for this project:
+Below is a list of recommended/required extensions for this project, which
+are also added to the extension list by the installer. These are not
+required to make the the setup run in a shell only environment.
 
 1. **ESLint** - [dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)  
    Publisher: Dirk Baeumer  
