@@ -52,6 +52,7 @@ npm run format
 
 # Clean the build directory, fix issues, format code, and build the project
 npm run cleanbuild
+```
 
 ## Install
 
