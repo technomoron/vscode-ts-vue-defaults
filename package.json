@@ -1,0 +1,27 @@
+{
+	"name": "vscode-ts-vue-defaults",
+	"version": "1.0.0",
+	"description": "Default editor config and eslint config for js/ts/vue",
+	"license": "MIT",
+	"author": "",
+	"type": "javascript",
+	"private": false,
+	"engines": {
+		"node": ">=18.0.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint --ext .js,.ts,.vue ./",
+		"lintfix": "eslint --fix --ext .js,.ts,.vue ./",
+		"format": "prettier --write \"**/*.{js,jsx,ts,tsx,vue,json,css,scss,md}\""
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^8.30.1",
+		"@typescript-eslint/parser": "^8.30.1",
+		"eslint": "^8.57.1",
+		"eslint-config-standard": "^17.1.0",
+		"eslint-plugin-import": "^2.31.0",
+		"eslint-plugin-vue": "^10.0.0",
+		"prettier": "^3.5.3"
+	}
+}
